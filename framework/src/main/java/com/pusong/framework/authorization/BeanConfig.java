@@ -1,4 +1,4 @@
-package com.pusong.study.securityProject.config;
+package com.pusong.framework.authorization;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

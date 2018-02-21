@@ -10,6 +10,9 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>securityProject</module>
+        <module>framework</module>
+        <module>userProject</module>
+        <module>starterProject</module>
     </modules>
 
     <name>General Project</name>
