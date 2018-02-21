@@ -1,0 +1,32 @@
+
+#server:
+#  port: 37210
+#  context-path: /api
+#  servlet-path: /
+
+spring:
+  application:
+    name: security-service
+  jpa:
+    database: MYSQL
+    show-sql: true
+    format-sql: true
+    hibernate:
+      ddl-auto: none
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5Dialect
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://114.215.177.212:3306/test
+    username: chuanghe
+    password: chuanghe
+
+#security:
+#  oauth2:
+#    client:
+#      client-id: client
+#      client-secret: secret
+#    grant-type: password
