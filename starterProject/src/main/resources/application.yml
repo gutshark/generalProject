@@ -25,6 +25,16 @@ spring:
 #    password: chuanghe
     url: jdbc:h2:mem:user
     driver-class-name: org.h2.Driver
+    primary:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://114.215.177.212:3306/test
+      username: chuanghe
+      password: chuanghe
+    secondary:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://114.215.177.212:3306/test
+      username: chuanghe
+      password: chuanghe
 
 #security:
 #  oauth2:
@@ -32,3 +42,4 @@ spring:
 #      client-id: client
 #      client-secret: secret
 #    grant-type: password
+
