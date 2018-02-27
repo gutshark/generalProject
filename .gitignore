@@ -17,3 +17,6 @@ target/
 
 #log file
 *.log
+
+#backup file
+*.bak
